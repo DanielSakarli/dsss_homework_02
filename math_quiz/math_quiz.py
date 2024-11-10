@@ -81,9 +81,8 @@ def math_quiz():
             continue
 
         print(f"\nQuestion: {PROBLEM}")
-        # Get the user input via the console
+        # Get the user input via the terminal
         useranswer = input("Your answer: ")
-        
         try:
             # Check if the user's input is a valid integer
             if not useranswer.isdigit():
